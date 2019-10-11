@@ -330,30 +330,6 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 				 */
 				do_action( 'twentytwenty_start_of_post_meta_list', $post_id );
 
-				// Author.
-				if ( in_array( 'author', $post_meta, true ) ) {
-
-					$has_meta = true;
-					?>
-					<li class="post-author meta-wrapper">
-						<span class="meta-icon">
-							<span class="screen-reader-text"><?php _e( 'Post author', 'twentytwenty' ); ?></span>
-							<?php twentytwenty_the_theme_svg( 'user' ); ?>
-						</span>
-						<span class="meta-text">
-							<?php
-							printf(
-								/* translators: %s: Author name */
-								__( 'By %s', 'twentytwenty' ),
-								'<a href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author_meta( 'display_name' ) ) . '</a>'
-							);
-							?>
-						</span>
-					</li>
-					<?php
-
-				}
-
 				// Post date.
 				if ( in_array( 'post-date', $post_meta, true ) ) {
 
