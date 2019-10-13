@@ -50,7 +50,7 @@
 								<span class="toggle-icon">
 									<?php twentytwenty_the_theme_svg( 'search' ); ?>
 								</span>
-								<span class="toggle-text"><?php _e( 'Search', 'twentytwenty' ); ?></span>
+								<span class="visually-hidden"><?php _e( 'Search', 'twentytwenty' ); ?></span>
 							</span>
 						</button><!-- .search-toggle -->
 
