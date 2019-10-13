@@ -260,7 +260,7 @@ body#tinymce.wp-editor blockquote p {
 }
 
 body#tinymce.wp-editor cite {
-	color: #6d6d6d;
+	color: #616D7C;
 	font-size: 16px;
 	font-weight: 500;
 	font-style: normal;
@@ -390,7 +390,7 @@ body#tinymce.wp-editor figcaption,
 body#tinymce.wp-editor .wp-caption-text,
 body#tinymce.wp-editor .wp-caption-dd,
 body#tinymce.wp-editor .gallery-caption {
-	color: #6d6d6d;
+	color: #616D7C;
 	display: block;
 	font-size: 15px;
 	font-weight: 500;

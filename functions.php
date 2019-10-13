@@ -560,15 +560,15 @@ function twentytwenty_get_color_for_area( $area = 'content', $context = 'text' )
 		'accent_accessible_colors',
 		array(
 			'content'       => array(
-				'text'      => '#000000',
-				'accent'    => '#cd2653',
-				'secondary' => '#6d6d6d',
+				'text'      => '#323F4B',
+				'accent'    => '#BC0A6E',
+				'secondary' => '#616D7C',
 				'borders'   => '#dcd7ca',
 			),
 			'header-footer' => array(
-				'text'      => '#000000',
-				'accent'    => '#cd2653',
-				'secondary' => '#6d6d6d',
+				'text'      => '#323F4B',
+				'accent'    => '#BC0A6E',
+				'secondary' => '#616D7C',
 				'borders'   => '#dcd7ca',
 			),
 		)

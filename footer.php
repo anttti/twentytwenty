@@ -25,7 +25,9 @@
 								_x( 'Y', 'copyright date format', 'twentytwenty' )
 							);
 							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo bloginfo( 'name' ); ?></a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+								Anttti Mattila
+							</a>
 						</p>
 
 						<p class="powered-by-wordpress">

@@ -56,9 +56,9 @@ if ( ! function_exists( 'twentytwenty_get_customizer_css' ) ) {
 
 		// Get variables.
 		$body           = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'text' ) );
-		$body_default   = '#000000';
+		$body_default   = '#323F4B';
 		$accent         = sanitize_hex_color( twentytwenty_get_color_for_area( 'content', 'accent' ) );
-		$accent_default = '#cd2653';
+		$accent_default = '#BC0A6E';
 		/**
 		 * Filters the CSS selectors targeting button component on frontend to apply common css
 		 *
